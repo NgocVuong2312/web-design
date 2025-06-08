@@ -3,6 +3,7 @@
 <head>  
     <link rel="stylesheet" href="login.css">
     <script src="login.js"></script>
+    <script src="googlelog.js" defer type="moduleư"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -12,9 +13,14 @@
         <h1>Login</h1>
         <input class="input" type="text" id="username" placeholder="Username">
         <input class="input" type="password" id="password" placeholder="Password">
-        <button class="button" type="submit" onclick="Login()">Login</button>
+        <button class="logbutton" type="submit" onclick="Login()">Login</button>
         <div class="links">
             <a href="..\..\time manager\signup\register.html" style="font-size: small;">Register</a>
+        </div>
+        <div class="advancelogin">
+            <button class="advan" onclick="" style="background-color: rgb(60, 60, 192);">Facebook</button>
+            <button class="advan" style="background-color: rgb(255, 0, 0);">Google</button>
+        </div>
     </div>
 </body>
 </html>
