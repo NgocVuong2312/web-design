@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="home.css">
     <script src="home.js"></script>
     <meta charset="UTF-8">
@@ -8,15 +10,39 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="menu">
-        <div class="account">
-            <img src="../../timemanager/src/etopic.jpg" alt="profile" class="profilepicture">
-            <p class="accountname">Nguyễn Ngọc Vượng</p>
+    <nav class="menu close">
+        <header class="account">
+            <img src="../../timemanager/src/etopic.jpg" alt="profile" class="profilepicture close">
+            <span class="accountname">Nguyễn Ngọc Vượng</span>
+            <i class='bxr  bx-arrow-right-stroke toggle' id="toggle"  ></i> 
+        </header>
+        <div class="menuitem">
+            <ul class="menulist">
+                <li class="navmenu">
+                    <i class='bx  bx-search-big'  ></i> 
+                    <input type="text" class="search" placeholder="Search...">
+                </li>
+                <li class="navmenu">
+                    <a href="#" class="menuitemlink">
+                        <i class='bx  bx-note'  ></i>
+                        <span class="item">Note board</span>
+                    </a>
+                </li>
+                <li class="navmenu">
+                    <a href="#" class="menuitemlink">
+                        <i class='bx  bxs-plus-circle'  ></i> 
+                        <span class="item">Add note</span>
+                    </a>
+                </li>
+                
+            </ul>
             
         </div>
-        <div class="menuitem">
+        
+        </nav>
+    
+    <div class="box">
 
-        </div>
     </div>
 </body>
 </html>
