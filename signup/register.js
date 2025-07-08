@@ -20,7 +20,7 @@ function Register() {
             }
             localStorage.setItem("userdata", JSON.stringify(data));
             alert("Registration successful!");
-            return location.href='../../time manager/login/login.html';
+            return location.href='../../timemanager/login/login.html';
         }
     }
     

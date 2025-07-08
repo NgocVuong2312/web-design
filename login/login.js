@@ -8,7 +8,7 @@ function Login() {
             const userData = JSON.parse(storedData);
             if (userData.username === username && userData.password === password) {
                 alert('Login successful!');
-                return location.href = '../../time manager/home/home.html';
+                return location.href = '../../timemanager/home/home.html';
             } else {
                 alert('Invalid username or password.');
             }
